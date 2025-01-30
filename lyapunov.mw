@@ -1,0 +1,2489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="13" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false"><Zoom percentage="150"/></View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="infinity" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" plotdriver="openviz" elisiondigitsafter="100" plotoutput="terminal" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="infinity" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" errorcursor="false" longdelim="true" plotoptions="" quiet="false" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" warnlevel="3" screenheight="25" latexwidth="6.0" postplot="" prompt="&gt; " ShowLabels="true"/>
+<Styles><Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Task-table>
+    <Task-category name="&lt;default&gt;">
+    </Task-category>
+</Task-table>
+<Task>
+</Task>
+<Text-field style="Heading 1" layout="Heading 1" alignment="centred">LYAPUNOV - Determination of Lyapounov functions for systems of Quasi-Polynomial ODE's.</Text-field>
+<Text-field style="Text" layout="Normal" alignment="centred"> 2.0</Text-field>
+<Text-field style="Author" layout="Author">January<Font font_style_name="Date" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" style="Date" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]"> 2025 - tmrf1962@gmail.com - dimarti@unb.br
+</Font></Text-field>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1">Introduction</Text-field></Title>
+<Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Implementation of the approach by Iram M. Gl\303\251ria, Annibal Figueiredo and Tarc\303\255sio M. Rocha Filho for the determination of Lyapunov functions for Quasi-Polynomial systems, as descrbed in the following articles:</Font></Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">A. Figueirdo, I. M. Gl\303\251ria, T. M. Rocha-Filho. </Font><Font italic="true">Boundedness of solutions and Lyapunov functions in quasi-polynomial systems.</Font> Physics Letters A <Font bold="true">268</Font></Text-field>
+<Text-field style="Normal" layout="Normal">(2000) 335. doi:10.1016/S0375-9601(00)00175-4.</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal"><Font encoding="UTF-8"> I. M. Gl\303\251ria, A. Figueiredo, T. M. Rocha-Filho. </Font><Font italic="true">A numerical method for the stability analysis of quasi-polynomial vector fields.</Font> Nonlinear Analysis <Font bold="true">52</Font> (2003) 329. doi:10.1016/S0362-546X(02)00117-7.</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1">Interface</Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">LYAPUNOV</Text-field></Title>
+<Text-field style="Normal" layout="Normal"><Font bold="true" family="Lucida Bright">LyapunovFunction</Font><Font family="Lucida Bright"> - Obtains the Lyapunov functions for a set of ODEs and a given fixed point by solving, if possible, the admissibility conditions.</Font></Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal"><Font bold="true">lyap_func</Font> - Gives the form of the lyapunov function for a set of ODEs and a given fixed point without solving the admissibility conditions.</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal"><Hyperlink linktarget="Wks:#gfr_alg" hyperlink="true"></Hyperlink><Font bold="true">AdmissibilityConditions</Font><Hyperlink linktarget="Wks:#gfr_alg" hyperlink="true"></Hyperlink> - Determines the admissibility conditions for a given set of ODEs and a given fixd point.</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal"><Font bold="true" family="Lucida Bright">SolveCond</Font><Font family="Lucida Bright"> - Solves the admissibility conditions.</Font></Text-field>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1">Implementation - Initialization</Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Function" font_style_name="Function" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="Function" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="Function" spaceabove="0" bullet="none">Initialization</Text-field></Title>
+<Group labelreference="L72" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart:
+
+lyapunov := module()
+
+export LyapunovFunction,lyap_func,AdmissibilityConditions,SolveAdmissCond,
+       SolveSingleIneq,SolveManyIneqs,init:
+
+local SolveConds,quad_matrix,comp_alpha,dimred,setcont2,gfr_alg,solve_minmax,compute_MP,
+      highest_eigenvector,compute_g,gfr_cond,gfr_cond0,conds_alt,IneqLinSolver,
+      remove_trivial,TypeIneqs,GiveIneq,SolveSimpleIneq,SimplifyIneq,FinalSimplify2,
+      clean_conds,SolveConds0,makenormal,adjust_ineq_res,RemoveContradictions,wti,
+      RemoveTrivial,ComplexityOrder:
+
+option package, load = init:
+
+
+# Initialization procedure
+init:=proc()
+global LYAPUNOV,SADE:
+
+with(sade):
+with(linalg):
+with(LinearAlgebra):
+with(Optimization):
+
+SADE[nored]:=false:
+SADE[cmax]:=1:
+
+LYAPUNOV[_eps]:=10.0^(-12):
+LYAPUNOV[_eps2]:=10.0^(-8):
+LYAPUNOV[_maxiter]:=1000:
+LYAPUNOV[_incog_name]:=a:
+LYAPUNOV[_incog_w]:=w:
+LYAPUNOV[_timelim]:=20.0:
+LYAPUNOV[_nummaxQP]:=6:
+LYAPUNOV[_groebner]:=true:
+LYAPUNOV[_maxsize]:=500:
+
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1">Implementation - LYAPUNOV</Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field bookmark="comp_alpha" style="Function" font_style_name="Function" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="Function" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="Function" spaceabove="0" bullet="none">comp_alpha</Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Synopsis</Text-field></Title>
+<Text-field style="Maple Input" executable="false" layout="Normal"><Font executable="false">result := comp_alpha( )</Font></Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Parameters</Text-field></Title>
+<Text-field style="Bullet Item" layout="Bullet Item">result : a matrix</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Description</Text-field></Title>
+<Text-field style="Normal" layout="Normal">Computes the matrix alpha used as input to the lagrange algorithm.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Code</Text-field></Title>
+<Group labelreference="L21" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">comp_alpha:=proc()
+local i,j,mm,n,k,alp,a:
+global LYAPUNOV,SADE:
+a:=LYAPUNOV[_incog_name]:
+n:=nops(SADE[qmlist]):
+mm:=array(1..n):
+k:=0:
+for i from 1 to n do
+    if SADE[qmlist][i]=1 then
+       k:=i
+    fi
+od:
+if k=0 then
+   mm:=SADE[matm]
+else
+   mm:=linalg[delrows](linalg[delcols](SADE[matm],k..k),k..k):
+   n:=n-1
+fi:
+alp:=Matrix(n,n):
+for i from 1 to n do
+for j from 1 to n do
+    alp[i,j]:=(cat(LYAPUNOV[_incog_name],i)*mm[i,j]+cat(LYAPUNOV[_incog_name],j)*mm[j,i])/2
+od
+od:
+alp
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Function" font_style_name="Function" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="Function" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="Function" spaceabove="0" bullet="none">quad_matrix</Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Synopsis</Text-field></Title>
+<Text-field style="Maple Input" executable="false" layout="Normal"><Font executable="false">result := quad_matrix()</Font></Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Parameters</Text-field></Title>
+<Text-field style="Bullet Item" layout="Bullet Item">result : a matrix.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Description</Text-field></Title>
+<Text-field style="Normal" layout="Normal">Return the LV matrix corresponding to the quadratic part (excluding the linear part associated to the monomial 1) of the Lotka-Volterra matrix stored in the SADE global variable SADE[matm].</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Code</Text-field></Title>
+<Group labelreference="L29" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">quad_matrix:=proc()
+local i,j,mm,n,k,alp,res:
+global LYAPUNOV,SADE:
+
+n:=nops(SADE[qmlist]):
+
+mm:=array(1..n,1..n):
+k:=0:
+for i from 1 to n do
+    if SADE[qmlist][i]=1 then
+       k:=i
+    fi
+od:
+if k=0 then
+   mm:=SADE[matm]:
+else
+   mm:=linalg[delrows](linalg[delcols](SADE[matm],k..k),k..k):
+   n:=n-1
+fi:
+
+res:=Matrix(n,n):
+for i from 1 to n do
+for j from 1 to n do
+    res[i,j]:=mm[i,j]
+od
+od:
+res:
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Function" font_style_name="Function" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="Function" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="Function" spaceabove="0" bullet="none">dimred</Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Synopsis</Text-field></Title>
+<Text-field style="Maple Input" executable="false" layout="Normal"><Font executable="false">result := dimred(alpha)</Font></Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Parameters</Text-field></Title>
+<Text-field style="Bullet Item" layout="Bullet Item">input: a matrix.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">result : a matrix.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Description</Text-field></Title>
+<Text-field style="Normal" layout="Normal">Eliminates the first line and colum of the square matrix alpha of dimension n and
+returns a matrix with dimension n-1.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Code</Text-field></Title>
+<Group labelreference="L31" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">dimred:=proc(alpha)
+local i,j,redalpha,n:
+n:=LinearAlgebra[RowDimension](alpha):
+redalpha:=Matrix(n-1,n-1):
+for i from 2 to n do
+for j from 2 to n do
+    redalpha[i-1,j-1]:=alpha[i,j]
+od
+od:
+redalpha
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font bold="false" family="Lucida Bright" size="12">setcont2</Font></Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"></Text-field></Title>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"></Text-field></Title>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"></Text-field></Title>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Code</Font></Text-field></Title>
+<Group labelreference="L84" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">setcont2:=proc(a,s)
+local res,i:
+res:={}:
+for  i from 1 to nops(s) do
+     if has(a,s[i]) then
+        res:=res union {s[i]}
+     fi
+od:
+res
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field bookmark="gfr_alg" style="Function" font_style_name="Function" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="Function" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="Function" spaceabove="0" bullet="none">gfr_alg</Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Synopsis</Text-field></Title>
+<Text-field style="Maple Input" executable="false" layout="Normal"><Font executable="false">result := gfr_alg(eq,ws,n,l)</Font></Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Parameters</Text-field></Title>
+<Text-field style="Bullet Item" layout="Bullet Item">eq: a list or set with the equalities and inequatilities to solve;</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">ws: a list with the unknown names.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">n: an integer - the numer of dimensions of the problem</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">l: the step in the iteratove process.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">result : a set with logical conditions on the parameters.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Description</Text-field></Title>
+<Text-field style="Normal" layout="Normal">Gleria, Figueiredo &amp; Rocha Filho Algorithm for solving F&lt;=0.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Code</Text-field></Title>
+<Group labelreference="L22" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">gfr_alg:=proc(eq,ws,n,l)
+local a,b,c,eq2,var,res,r1,r2:
+global LYAPUNOV,SADE:
+
+eq2:=expand(eq):
+var:=ws[l]:
+
+a:=coeff(eq2,var,2):
+b:=coeff(eq2,var,1):
+c:=coeff(eq2,var,0):
+
+if l=n then
+   r1:={a&lt;0}:
+   r2:={a=0,b=0}:
+   res:=[r1,r2]:
+   RETURN(res)
+fi:
+
+if l&lt;=LYAPUNOV[_nummaxQP] then
+
+   r1:=gfr_alg(b^2-4*a*c,ws,n,l+1):
+   r2:=gfr_alg(c,ws,n,l+1):
+
+   r1:=map(z-&gt;z union {a&lt;0},r1):
+   r2:=map(z-&gt;z union {a=0,b=0},r2):
+
+   res:=[op(r1),op(r2)]
+else
+
+   r2:=gfr_alg(c,ws,n,l+1):
+
+   r2:=map(z-&gt;z union {a=0,b=0},r2):
+
+   res:=[op(r2)]
+fi:
+
+res
+
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field bookmark="lyap_func" style="Function" font_style_name="Function" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="Function" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="Function" spaceabove="0" bullet="none">lyap_func</Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Synopsis</Text-field></Title>
+<Text-field style="Maple Input" executable="false" layout="Normal"><Font executable="false">result := lyap_func(r,q,a)</Font></Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Parameters</Text-field></Title>
+<Text-field style="Bullet Item" layout="Bullet Item">result : a function of the original variables.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">r: a set of substitution rules for the parameter values.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">q: a list of expressions for the components of the fixed point.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">a: if numeric implemets the numeric algorithm for the solution of the admissibility condition. Otherwise a list of values for the solution of the admissibility condition [a1,...,an].</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Description</Text-field></Title>
+<Text-field style="Normal" layout="Normal">Computes the Lyapunov function if it exists for the values of the original parameters</Text-field>
+<Text-field style="Normal" layout="Normal">given in r and for the fixed point whose components are given in q in the respective</Text-field>
+<Text-field style="Normal" layout="Normal">order of the original variables as defined in algsys. The fixed point can be a function</Text-field>
+<Text-field style="Normal" layout="Normal">of the free parameters.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Code</Text-field></Title>
+<Group labelreference="L24" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">lyap_func:=proc(r,q2)
+local i,j,nn,n2,bb,cc,res,a,fp,eqs,vrs,s,s2,unks,prov,n3,prov2,prov3,q,qq,anorm:
+global LYAPUNOV,SADE:
+
+qq:=simplify(subs(r,q2)):
+vrs:=SADE[_vars]:
+
+if args[3]&lt;&gt;numeric and not(type(args[3],list)) then
+   RETURN(&quot;Wrong third argument,&quot;)
+fi:
+
+q:=SADE[qmlist]:
+for i from 1 to nops(vrs) do
+    if qq[i]=0 then RETURN(false) fi:
+    q:=subs(qq[i],q)
+od:
+
+if args[3]=numeric then
+
+   cc:=quad_matrix():
+   nn:=LinearAlgebra[RowDimension](cc):
+
+   for i from 1 to nn do
+   for j from 1 to nn do
+       cc[i,j]:=subs(r,cc[i,j]):
+   od
+   od:
+
+   a:=Vector([seq(0.5,ii=1..nn)]):
+
+   res:=solve_minmax(cc,a):
+
+   if res=false then
+      RETURN(false)
+   fi:
+
+   anorm:=0:
+   for i from 1 to nn do
+       anorm:=anorm+res[i]^2
+   od:
+   anorm:=sqrt(anorm):
+
+   if anorm&lt;LYAPUNOV[_eps2] then
+      RETURN(false)
+   fi:
+
+   a:=res
+else
+   a:=args[3]:
+   nn:=nops(a)
+fi:
+
+# Computes the Lyapunov function.
+prov:=0:
+j:=1:
+for i from 1 to nn do
+    if SADE[qmlist][i]&lt;&gt;1 then
+       prov:=prov+a[j]*q[i]*(SADE[qmlist][i]/q[i]-ln(SADE[qmlist][i]/q[i])-1):
+       j:=j+1
+    fi
+od:
+res:=eval(subs(r,prov)):
+res
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field bookmark="lyap_func" style="Function" font_style_name="Function" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="Function" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="Function" spaceabove="0" bullet="none">solve_minmax</Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Synopsis</Text-field></Title>
+<Text-field style="Maple Input" executable="false" layout="Normal"><Font executable="false">resulr := solve_minmax(M,a,norma)</Font></Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Parameters</Text-field></Title>
+<Text-field style="Bullet Item" layout="Bullet Item">result : a vetor with the solution of the minimax problem.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">M: the Lotka-Volterra matrix.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">a: a vector with the initial guess.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">eps: maixmum error for phi</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">eps2: maximum error as the norm of the variation of variable a</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Description</Text-field></Title>
+<Text-field style="Normal" layout="Normal">Implementation of the numerical algorithm for the solution of the admissibility condition</Text-field>
+<Text-field style="Normal" layout="Normal"> of a matrix M as given in the article</Text-field>
+<Text-field style="Normal" layout="Normal"> &quot;A numerical method for the stability analysis of quasi-polynomial vector $elds&quot;</Text-field>
+<Text-field style="Normal" layout="Normal"><Font encoding="UTF-8"> Nonlinear Analysis 52 (2003) 329 \342\200\223 342.</Font></Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Code</Text-field></Title>
+<Group labelreference="L36" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">solve_minmax:=proc(M,a)
+local i,j,x,eqs_extra,eqn,delim,nn,ii,gg,mp,vv,ss,phi,err,sol,xx,aa,norma,eps,eps2,iter,pr:
+global LYAPUNOV:
+
+eps:=LYAPUNOV[_eps]:
+eps2:=LYAPUNOV[_eps2]:
+
+nn:=op(1,a):
+mp:=Matrix(nn,nn):
+gg:=Vector(nn):
+
+aa:=Vector(nn):
+for i from 1 to nn do
+    aa[i]:=a[i]
+od:
+
+norma:=0:
+for i from 1 to nn do
+for j from 1 to nn do
+    norma:=norma+M[i,j]^2
+od
+od:
+norma:=sqrt(norma):
+
+delim:={seq(x[ii]&lt;=1,ii=1..nn),seq(x[ii]&gt;=0,ii=1..nn),sp&lt;=evalf(2*sqrt(nn)*norma),sp&gt;=0}:
+
+eqs_extra:=delim:
+
+# Main loop
+
+iter:=0:
+err:=10^10:
+xx:=[seq(x[ii],ii=1..nn)]:
+
+while err&gt;eps2 and iter&lt;LYAPUNOV[_maxiter] do
+
+      iter:=iter+1:
+
+      for i from 1 to nn do
+      for j from 1 to nn do
+          mp[i,j]:=aa[i]*M[i,j]+M[j,i]*aa[j]
+      od
+      od:
+
+      vv:=highest_eigenvector(mp,nn):
+
+      for i from 1 to nn do
+          pr:=0:
+          for j from 1 to nn do
+              pr:=pr+vv[i]*M[i,j]*vv[j]
+          od:
+          gg[i]:=2*pr:
+      od:
+
+      phi:=0:
+      for i from 1 to nn do
+          phi:=phi+gg[i]*aa[i]
+      od:
+
+      if phi&lt;=eps then
+         RETURN(aa)
+      fi:
+
+      eqn:=sp:
+      for i from 1 to nn do
+          eqn:=eqn+x[i]*gg[i]-aa[i]*gg[i]
+      od:
+
+      eqs_extra:=eqs_extra union {eqn&lt;=0}:
+
+      ss:=Optimization[LPSolve](-sp,eqs_extra,assume = nonnegative):
+      sol:=subs(ss[2],xx):
+
+      err:=0:
+      for i from 1 to nn do
+          err:=err+(sol[i]-aa[i])^2:
+          aa[i]:=(sol[i]+aa[i])/2.0:
+      end:
+      err:=sqrt(err)
+od:
+false
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Annotation Title" layout="Annotation Title" alignment="left"><Font bold="false" size="12">highest_eigenvector</Font></Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Synopsis</Text-field></Title>
+<Text-field style="Maple Input" executable="false" layout="Normal"><Font executable="false">resut:=highest_eigenvector(M,n)</Font></Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Parameters</Text-field></Title>
+<Text-field style="Bullet Item" layout="Bullet Item">M: a matrix.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">n: the dimension nXn of the matrix</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Description</Text-field></Title>
+<Text-field style="Normal" layout="Normal">Returns the eigenvector corresponding to the highest eigenvaue of M.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Code</Text-field></Title>
+<Group labelreference="L44" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">highest_eigenvector:=proc(mp,n)
+local i,ev,evec,l,lr,biggest,vec,imax:
+
+vec:=Vector(1..n):
+
+ev:=LinearAlgebra[Eigenvectors](mp):
+
+l:=ev[1]:
+evec:=ev[2]:
+
+biggest:=-10^100:
+for i from 1 to n do
+    lr:=subs(I=0,l[i]):
+    if lr&gt;biggest then
+       biggest:=lr:
+       imax:=i
+    fi
+od:
+
+for i from 1 to n do
+    vec[i]:=subs(I=0,evec[i,imax])
+od:
+
+vec
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field bookmark="gfr_cond" style="Function" font_style_name="Function" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="Function" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="Function" spaceabove="0" bullet="none">gfr_cond</Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Synopsis</Text-field></Title>
+<Text-field style="Text" layout="Normal">result := gfr_cond(params)</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Parameters</Text-field></Title>
+<Text-field style="Bullet Item" layout="Bullet Item">result :  a set of sets of conditions.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">params: a set of variables.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Description</Text-field></Title>
+<Text-field style="Normal" layout="Normal">Obtains the conditions on admissibility given the parameters.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Code</Text-field></Title>
+<Group labelreference="L32" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">gfr_cond:=proc(params)
+local i,j,l,Ma,alpha,n,ws,ii,aa,as,ww,res,eq,conds,c1,c2,cn,pr,pr2,pr3:
+global SADE,LYAPUNOV:
+
+alpha:=quad_matrix():
+n:=LinearAlgebra[RowDimension](eval(alpha)):
+
+Ma:=Matrix(n,n):
+aa:=LYAPUNOV[_incog_name]:
+ww:=LYAPUNOV[_incog_w]:
+
+ws:=[seq(ww[ii],ii=1..n)];
+as:=[seq(cat(aa,ii),ii=1..n)];
+
+eq:=0:
+for i from 1 to n do
+for j from 1 to n do
+    Ma[i,j]:=as[i]*alpha[i,j]:
+    eq:=eq+Ma[i,j]*ww[i]*ww[j]
+od
+od:
+
+LYAPUNOV[Ma_Matrix]:=Ma:
+
+conds:=gfr_cond0(params):
+
+conds
+
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field bookmark="gfr_cond" style="Function" font_style_name="Function" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="Function" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="Function" spaceabove="0" bullet="none">gfr_cond0</Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Synopsis</Text-field></Title>
+<Text-field style="Text" layout="Normal">result := gfr_cond0(params)</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Parameters</Text-field></Title>
+<Text-field style="Bullet Item" layout="Bullet Item">result :  a set of sets of conditions.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">params: a set of variables.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Description</Text-field></Title>
+<Text-field style="Normal" layout="Normal"><Font encoding="UTF-8">Obtains the conditions on admissibility according ro Gl\303\251ria, Figueredo &amp; Rocha Filho algorithm.</Font></Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font style="Annotation Text">Code</Font></Text-field></Title>
+<Group labelreference="L2517" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" bold="false" layout="Normal"><Font bold="true">gfr_cond0:=proc(params)
+local res,res0,i,j,pr,pr2,eq,n,t1,t2,ws,ii,aas,aasb,aasc,aasd,aase,aasf:
+global SADE,LYAPUNOV:
+
+n:=LinearAlgebra[RowDimension](LYAPUNOV[Ma_Matrix]):
+
+ws:=[seq(cat(LYAPUNOV[_incog_w],ii),ii=1..n)]:
+aas:={seq(cat(LYAPUNOV[_incog_name],ii)&gt;0,ii=1..n)}:
+aasb:={seq(-cat(LYAPUNOV[_incog_name],ii)&lt;0,ii=1..n)}:
+aasc:={seq(cat(LYAPUNOV[_incog_name],ii)&lt;0,ii=1..n)}:
+aasd:={seq(-cat(LYAPUNOV[_incog_name],ii)&gt;0,ii=1..n)}:
+################################################
+aase:={seq(cat(LYAPUNOV[_incog_name],ii)=0,ii=1..n)}:
+aasf:={seq(-cat(LYAPUNOV[_incog_name],ii)=0,ii=1..n)}:
+################################################
+
+eq:=0:
+for i from 1 to n do
+for j from 1 to n do
+    eq:=eq+LYAPUNOV[Ma_Matrix][i,j]*ws[i]*ws[j]
+od
+od:
+
+res0:=gfr_alg(eq,ws,n,1):
+
+res:={}:
+for i from 1 to nops(res0) do
+    pr:=res0[i]:
+    t1:=expand(map(z-&gt;if type(z,`=`) then z fi,pr)):
+    t2:=map(z-&gt;if type(z,`&lt;`) or type(z,`&lt;=`) then z fi,pr):
+
+    t1:=map(z-&gt;lhs(z)-rhs(z),t1):
+    t1:=map(z-&gt;coeffs(z,ws),t1) minus {0}:
+    t1:=map(z-&gt;z=0,t1):
+
+    pr:=t1 union t2:
+    pr2:=map(z-&gt;if setcont2(z,params)={} then z fi,pr):
+    pr2:=pr2 minus aas minus aasb:
+    pr:=map(z-&gt;if has(z,0&lt;0) then z fi,pr2):
+
+    if pr={} and pr2 intersect aasc={} and pr2 intersect aasd={} and
+                 pr2 intersect aase={} and pr2 intersect aasf={} then
+       res:=res union {t1 union t2}
+    fi:
+od:
+
+res
+
+end:</Font></Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field bookmark="gfr_cond" style="Function" font_style_name="Function" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="Function" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="Function" spaceabove="0" bullet="none">conds_alt</Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Synopsis</Text-field></Title>
+<Text-field style="Text" layout="Normal">result := gfr_alt(eq,wws)</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Parameters</Text-field></Title>
+<Text-field style="Bullet Item" layout="Bullet Item">result :  a set with a single set of conditions.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">eq: the equation of admissibility condition.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">wws: the set with the unknowns in eq.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Description</Text-field></Title>
+<Text-field style="Normal" layout="Normal">Obtains the conditions on admissibility ni the alternative form using the Hessian and the trace of matrix Ma.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font style="Annotation Text">Code</Font></Text-field></Title>
+<Group labelreference="L2518" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">conds_alt:=proc(eq,wws)
+local rs,ee,i,j,pr,r1,r2,wws2,wws3,ee2,es,HH0,HH:
+
+ee:=eq:
+wws2:={op(wws)}:
+
+HH0:=Matrix(nops(wws2),nops(wws2)):
+for i from 1 to nops(wws2) do
+for j from 1 to nops(wws2) do
+    HH0[i,j]:=diff(diff(eq,wws2[i]),wws2[j])
+od
+od:
+
+es:={}:
+for i from 1 to nops(wws2) do
+    pr:=0:
+    for j from 1 to nops(wws2) do
+        pr:=pr+HH0[i,j]*wws2[j]
+    od:
+    pr:=pr:
+    es:=es union {pr}:
+od:
+es:=simplify(solve(es,wws2)):
+
+r1:=map(z-&gt;if lhs(z)&lt;&gt;rhs(z) then lhs(z) fi,es):
+r2:=map(z-&gt;if lhs(z)=rhs(z) then lhs(z) fi,es):
+
+wws3:=r1:
+ee2:=simplify(subs(map(z-&gt;z=0,r2),eq)):
+
+HH:=Matrix(nops(wws3),nops(wws3)):
+for i from 1 to nops(wws3) do
+for j from 1 to nops(wws3) do
+    HH[i,j]:=diff(diff(ee2,wws3[i]),wws3[j])
+od
+od:
+
+rs:={factor(LinearAlgebra[Determinant](HH))&gt;0}:
+rs:={rs union {factor(LinearAlgebra[Trace](HH))&lt;0}}:
+
+rs
+
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font bold="false" family="Lucida Bright" size="12">LyapunovFunction</Font></Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Synopsis</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">result := LyapunovFunction(eqs,variables,params,fp)</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Parameters</Font></Text-field></Title>
+<Group labelreference="L76" drawlabel="true">
+<Input>
+<Text-field style="Bullet Item" layout="Bullet Item">eqs : a list with the flow of the dynamical system.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">variables : a list with the variable names.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">paramas : a set with the free parameters in the flow.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">fp : a list with the components of the fixed point.</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Description</Font></Text-field></Title>
+<Group labelreference="L79" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Returns the Lyapunov functions, by solving the admissibility condition, either numerically or algebraicaly according to the problem.</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Code</Font></Text-field></Title>
+<Group labelreference="L77" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">LyapunovFunction:=proc(eqs::list,vars::list,params::set,fixpoint::list)
+local res,MM,MM2,hv,z,uu,nn,mm,qq,conds,i,j,sol,sol2,pr,pr2,
+      inc,inc2,lfunc,lfunc2,a,fp,as,assm,es:
+global LYAPUNOV,SADE:
+
+mm:=nops(vars):
+
+# Obtaining the QP system
+sade[algsys](eqs,vars,params):
+MM:=quad_matrix():
+
+nn:=LinearAlgebra[RowDimension](MM):
+uu:=[seq(seq(MM[ii,jj],ii=1..nn),jj=1..nn)]:
+
+hv:=map(z-&gt;has(uu,z),params):
+qq:=[seq(vars[ii]=fixpoint[ii],ii=1..mm)]:
+
+if hv={false} or hv={} then
+   res:=lyap_func({1=1},qq,numeric)
+else
+   a:=LYAPUNOV[_incog_name]:
+
+   fp:=subs(qq,SADE[qmlist]):
+
+   lfunc:=0:
+   j:=1:
+   for i from 1 to nops(SADE[qmlist]) do
+       if SADE[qmlist][i]&lt;&gt;1 then
+          pr:=fp[i]*(SADE[qmlist][i]/fp[i]-ln(SADE[qmlist][i]/fp[i])-1):
+          lfunc:=lfunc+cat(LYAPUNOV[_incog_name],j)*pr:
+          j:=j+1
+       fi
+   od:
+
+   conds:=AdmissibilityConditions(eqs,vars,params):
+
+   if conds=false then RETURN({}) fi:
+
+   as:={seq(cat(LYAPUNOV[_incog_name],ii),ii=1..nn)}:
+
+   if has({args},assume) then
+      assm:=op(map(z-&gt;if has(z,assume) then rhs(z) fi,{args})):
+      sol:=SolveAdmissCond(conds,params,assume=assm):
+   else
+      sol:=SolveAdmissCond(conds,params):
+   fi:
+
+   res:=1:
+   for i from 1 to nops(sol) do
+       pr:=lfunc:
+       
+       es:=simplify(map(z-&gt;if type(z,`=`) then z fi,sol[i])):
+       if es&lt;&gt;{} then
+          pr:=traperror(timelimit(LYAPUNOV[_timelim],expand(subs(es,pr))))
+       fi:
+
+       if pr&lt;&gt;lasterror and nops(pr)&lt;=LYAPUNOV[_maxsize] and not(type(pr,numeric)) then
+          pr:=factor(pr):
+
+          if type(pr,`*`) then
+             lfunc2:=1:
+             for j from 1 to nops(pr) do
+                 if not(has(as,op(j,pr))) then
+                    lfunc2:=lfunc2*op(j,pr)
+                 fi
+             od:
+          else
+             lfunc2:=pr
+          fi:
+
+          pr2:=map(z-&gt;if setcont2(lhs(z),as)&lt;&gt;{} then z fi,es):
+          sol2:=map(z-&gt;if not(has(as,lhs(z))) or not(type(z,`=`)) then z fi,sol[i]):
+          pr:=map(z-&gt;if has(as,lhs(z)) and rhs(z)&lt;&gt;0 then rhs(z)&gt;0 fi,es):
+          sol2:=pr union sol2:
+
+          res:=res,[lfunc2,sol2]
+       fi
+   od:
+   res:=[res]:
+   res:=res[2..nops(res)]
+fi:
+
+res:=map(z-&gt;if not(has(z,false)) then z fi,res):
+
+res
+
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font bold="false" family="Lucida Bright" size="12">AdmissibilityConditions</Font></Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Synopsis</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">result := AdmissibilityCOnditions(eqs,variables,params)</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Parameters</Font></Text-field></Title>
+<Group labelreference="L86" drawlabel="true">
+<Input>
+<Text-field style="Bullet Item" layout="Bullet Item">eqs : a list with the flow of the dynamical system.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">variables : a list with the variable names.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">params : a set with the free parameters in the flow.</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Description</Font></Text-field></Title>
+<Group labelreference="L88" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Returns the admissibility conditions on the Lotka-Volterra matrix associated to the system.</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Code</Font></Text-field></Title>
+<Group labelreference="L2512" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">AdmissibilityConditions:=proc(eqs::list,vars::list,params::set)
+local res0,res,ws,i,cnd0,cnd1,cnd2,pr,pr2,qm,n,aas,aas2,ii:
+
+sade[algsys](eqs,vars,params):
+qm:=quad_matrix():
+n:=LinearAlgebra[RowDimension](qm):
+aas:={seq(cat(LYAPUNOV[_incog_name],ii),ii=1..n)}:
+aas2:=map(z-&gt;z&gt;0,aas):
+
+res0:=gfr_cond(params):
+
+res:={}:
+for i from 1 to nops(res0) do
+
+    pr:=res0[i]:
+    cnd0:=map(z-&gt;if type(z,`=`) then z fi,pr):
+    cnd1:=map(z-&gt;if type(z,`&lt;`) then z fi,pr):
+    cnd2:=map(z-&gt;if type(z,`&lt;=`) then z fi,pr):
+
+    cnd1:=map(z-&gt;lhs(z)-rhs(z),cnd1):
+    cnd2:=map(z-&gt;lhs(z)-rhs(z),cnd2):
+
+    cnd1:=clean_conds(cnd1,aas,1):
+    cnd2:=clean_conds(cnd2,aas,-1):
+
+    if cnd1&lt;&gt;false and cnd2&lt;&gt;false then
+       pr:=cnd0 union cnd1 union cnd2: # union aas2:
+
+       if nargs&gt;=4 and has({args},Solve) then
+          pr2:=IneqLinSolver(pr,aas,params):
+          res:=res union {pr2}:
+       else
+          res:=res union {pr}
+       fi
+    fi
+od:
+
+if res&lt;&gt;{} and type(res[1],set) then
+   res:=map(z-&gt;remove_trivial(z,aas),res)
+else
+   res:=remove_trivial(res,aas)
+fi:
+
+res:=res minus {{}} minus {{false}}:
+
+res
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1">Implementation - Algebraic solution of the adminissibility conditions</Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font bold="false" family="Lucida Bright" size="12">IneqLinSolver</Font></Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Synopsis</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">result := IneqLinSolver(ineqs,as,params)</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Parameters</Font></Text-field></Title>
+<Group labelreference="L2529" drawlabel="true">
+<Input>
+<Text-field style="Bullet Item" layout="Bullet Item">result : a list of conditions.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">ineqs: a set of inqualities</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">as: a set with the ai's variables.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">paramas : a set with the free parameters in the flow.</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Description</Font></Text-field></Title>
+<Group labelreference="L2528" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Solves the linear inequalities in the set ineqs and returns the solutions added with the non-lienar inequalities.</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Code</Font></Text-field></Title>
+<Group labelreference="L2530" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">IneqLinSolver:=proc(ineqs::set,as::set,params::set)
+local i,pr,ineqs_lin,ineqs_nonlin,ineqs_lin2,res,res2,eqs2,sol,sol2,as2,ww:
+
+ww:=LYAPUNOV[_incog_w]:
+
+if has(ineqs,ww[1]) then RETURN(ineqs) fi:
+
+ineqs_lin:=map(z-&gt;if degree(lhs(z)-rhs(z),as)=1 and type(lhs(z)-rhs(z),polynom(anything,[op(as)])) then z fi,ineqs):
+ineqs_nonlin:=ineqs minus ineqs_lin:
+
+as2:=map(z-&gt;z&gt;0,as):
+eqs2:=map(z-&gt;if type(z,`=`) and lhs(z)&lt;&gt;rhs(z) then z fi,ineqs):
+
+if ineqs_lin&lt;&gt;{} then
+   ineqs_lin2:=ineqs_lin union as2:
+
+   res:=solve(ineqs_lin2,as):
+   if {res}={} or has(res,And) or has(res,Or) then
+      res:=ineqs_lin
+   else
+      res:=res minus as2
+   fi
+else
+   res:=ineqs
+fi:
+
+res:=res union ineqs_nonlin:
+
+res
+
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font bold="false" family="Lucida Bright" size="12">remove_trivial</Font></Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Synopsis</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">result := remove_trivial(conds,as)</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Parameters</Font></Text-field></Title>
+<Group labelreference="L2539" drawlabel="true">
+<Input>
+<Text-field style="Bullet Item" layout="Bullet Item">result : a set of sets of conditions.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">conds: a set of sets of conditions.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">as: the set with the unknowns a.i</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Description</Font></Text-field></Title>
+<Group labelreference="L2540" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Removes from the solutions obtained trivial conditions.</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Code</Font></Text-field></Title>
+<Group labelreference="L2543" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">remove_trivial:=proc(conds0,as)
+local i,j,res,pr,pr2,pr3,rmv,s,asz,asm,asp,conds,c1,c2,c3:
+
+asz:=map(z-&gt;z=0,as):
+asm:=map(z-&gt;z&lt;0,as):
+asp:=map(z-&gt;z&gt;0,as) union map(z-&gt;-z&lt;0,as):
+
+c1:=map(z-&gt;if type(z,`=`) then lhs(z)-rhs(z)=0 fi,conds0):
+c2:=map(z-&gt;if type(z,`&lt;`) then lhs(z)-rhs(z)&lt;0 fi,conds0):
+c3:=map(z-&gt;if type(z,`&lt;=`) then lhs(z)-rhs(z)&lt;=0 fi,conds0):
+
+conds:=c1 union c2 union c3 minus asp:
+
+if setcont2(conds,asz)&lt;&gt;{} or setcont2(conds,asm)&lt;&gt;{} then
+   RETURN({false})
+fi:
+
+rmv:={}:
+res:={}:
+
+for i from 1 to nops(conds) do
+    pr:=conds[i]:
+
+    if evalb(pr)=true then rmv:=rmv union {pr} fi:
+
+    if type(pr,`=`) and lhs(pr)=rhs(pr) then
+       rmv:=rmv union {pr}
+    fi:    
+ 
+    s:=0:
+    if type(pr,`&lt;=`) then s:=1 fi:
+    if type(pr,`&lt;`) then s:=-1 fi:
+
+    if type(pr,`=`) and lhs(pr)=rhs(pr) and s&lt;&gt;0 then
+       RETURN(false)
+    fi:
+
+    if s&lt;&gt;0 and evalb(pr)=false then RETURN({false}) fi:
+
+    pr2:=factor(lhs(pr)-rhs(pr)):
+
+    if s&lt;&gt;0 then
+       if type(pr2,`*`) then
+          pr3:=1:
+          for j from 1 to nops(pr2) do
+              if not(has(as,op(1,op(j,pr2)))) then
+                 if type(op(j,pr2),`^`) then
+                    if type(op(2,op(j,pr2)),even) or type(op(2,op(j,pr2)),odd) then
+                       if type(op(2,op(j,pr2)),odd) and as minus {op(1,op(j,pr2))}=as then
+                          if op(2,op(j,pr2))&gt;0 then
+                             pr3:=pr3*op(1,op(j,pr2))
+                          else
+                             pr3:=pr3/op(1,op(j,pr2))
+                          fi
+                       fi
+                    else
+                       pr3:=pr3*op(j,pr2)
+                    fi
+                 else
+                    if type(op(j,pr2),numeric) then
+                       if op(j,pr2)&lt;0 then
+                          pr3:=-pr3
+                       fi
+                    else
+                       pr3:=pr3*op(j,pr2)
+                    fi
+                 fi
+              fi
+          od
+       else
+          pr3:=1:
+          if not(has(as,op(1,pr2))) then
+             if type(pr2,`^`) then
+                if type(op(2,pr2),even) or type(op(2,pr2),odd) then
+                    if type(op(2,pr2),odd) and as minus {op(1,pr2)}=as then
+                       if op(2,pr2)&gt;0 then
+                          pr3:=pr3*op(1,pr2)
+                       else
+                          pr3:=pr3/op(1,pr2)
+                       fi
+                    fi
+                 else
+                    pr3:=pr3*pr2
+                 fi
+             else
+                pr3:=pr2
+             fi
+          fi
+       fi:
+
+       if s=1 then
+          if type(pr3,numeric) then
+             if not(evalb(pr3&lt;=0)) then RETURN({false}) fi
+          else
+             res:=res union {pr3&lt;=0}
+          fi
+       else
+          if type(pr3,numeric) then
+             if not(evalb(pr3&lt;0)) then RETURN({false}) fi
+          else
+             res:=res union {pr3&lt;0}
+          fi
+       fi
+    else
+       res:=res union {conds[i]}
+    fi:
+od:
+
+res:=res minus rmv:
+
+res
+
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font bold="false" family="Lucida Bright" size="12">TypeIneqs</Font></Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Synopsis</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">result := TypeIneqs(inqs)</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Parameters</Font></Text-field></Title>
+<Group labelreference="L2545" drawlabel="true">
+<Input>
+<Text-field style="Bullet Item" layout="Bullet Item">result : an integer</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">inqs: a set of sets of conditions.</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Description</Font></Text-field></Title>
+<Group labelreference="L2548" drawlabel="true">
+<Input>
+<Text-field style="Text" layout="Normal">Return 0 if the inequality of of the &lt;= type and 1 if the &lt; type.</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Code</Font></Text-field></Title>
+<Group labelreference="L2549" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">TypeIneqs:=proc(inqs)
+local r:
+r:=map(z-&gt;if type(z,`&lt;=`) then 0 else if type(z,`&lt;`) then 1 fi fi,inqs):
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font bold="false" family="Lucida Bright" size="12">GivenIneq</Font></Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Synopsis</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">result := GivenIneq(a,t)</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Parameters</Font></Text-field></Title>
+<Group labelreference="L2552" drawlabel="true">
+<Input>
+<Text-field style="Bullet Item" layout="Bullet Item">result : an inequation</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">a: an algebraic expression.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">t: an integer.</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Description</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">Returns a&lt;=0 if t=0 and a&lt;0 if t=1.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Code</Font></Text-field></Title>
+<Group labelreference="L2554" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">GiveIneq:=proc(a,t)
+if t=0 then RETURN(a&lt;=0) fi:
+if t=1 then RETURN(a&lt;0) fi:
+ERROR()
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font bold="false" family="Lucida Bright" size="12">SolveSimpleIneq</Font></Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Synopsis</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">result := SolveSimpleIneq(ineq,as,params)</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Parameters</Font></Text-field></Title>
+<Group labelreference="L2556" drawlabel="true">
+<Input>
+<Text-field style="Bullet Item" layout="Bullet Item">result : a set of a set of solutions.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">ineq: am inequation.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">as: the set of ai's unknowns.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">params: the free parameters in the original set of equations.</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Description</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">Solves a sinple simple inequation.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Code</Font></Text-field></Title>
+<Group labelreference="L2558" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">SolveSimpleIneq:=proc(ineq,as::set,params::set)
+local res,i,k,pr,pr2,sols,eq,eq2,tq,prm,n,vars,vv,xx,cc,r:
+
+vars:=as union params:
+cc:=1:
+
+eq:=factor(simplify(lhs(ineq)-rhs(ineq))):
+if type(eq,`+`) then RETURN({{ineq}}) fi:
+
+tq:=TypeIneqs({ineq})[1]:
+
+if type(eq,`*`) then
+
+   eq2:=1:
+   for i from 1 to nops(eq) do
+       pr:=op(i,eq):
+       if type(pr,numeric) then
+          cc:=cc*sign(pr)
+       else
+          eq2:=eq2*pr
+       fi
+   od:
+
+   n:=nops(eq2):
+
+   pr:=combinat[permute]([seq(1,ii=1..n),seq(-1,ii=1..n)], n):
+   pr2:=map(z-&gt;convert(z,`*`),pr):
+
+   prm:={}:
+   for i from 1 to nops(pr) do
+       if pr2[i]=-cc then
+          prm:=prm union {pr[i]} 
+       fi
+   od:
+
+   res:={}:
+   for i from 1 to nops(prm) do
+       r:={}:
+       pr:=prm[i]:
+
+       for k from 1 to nops(pr) do
+           pr2:=op(k,eq2):
+
+           if type(pr2,`^`) then
+              xx:=op(2,pr2):
+
+              if not(type(xx,integer)) then
+                 if pr[k]=1 then
+                    if tq=0 then
+                       r:=r union {op(1,pr2)&gt;=0}
+                    else
+                       r:=r union {op(1,pr2)&gt;0}
+                    fi
+                 else
+                    r:=r union {false}
+                 fi:
+              fi:
+
+              if type(xx,even) then
+                 if pr[k]=-1 then
+                    r:=r union {false}
+                 fi
+              fi:
+
+              if type(xx,odd) then
+                 if tq=0 then
+                       r:=r union {pr[k]*op(1,pr2)&lt;=0}
+                    else
+                       r:=r union {pr[k]*op(1,pr2)&lt;0}
+                    fi
+              fi:
+
+           else
+              r:=r union {GiveIneq(pr2*pr[k],tq)}
+           fi
+       od:
+
+       if not(has(r,false)) then
+          res:=res union {r}
+       fi
+   od:
+
+   RETURN(res):
+fi:
+
+{{ineq}}
+
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font bold="false" family="Lucida Bright" size="12">SolveSingleIneq</Font></Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Synopsis</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">result := SolveSingleIneq(ineq,as,params)</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Parameters</Font></Text-field></Title>
+<Group labelreference="L2562" drawlabel="true">
+<Input>
+<Text-field style="Bullet Item" layout="Bullet Item">result : a set of a set of solutions.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">ineq: am inequation.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">as: the set of ai's unknowns.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">params: the free parameters in the original set of equations.</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Description</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">Solves a single inequation.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Code</Font></Text-field></Title>
+<Group labelreference="L2565" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">SolveSingleIneq:=proc(ineq,as::set,params::set)
+local i,res,sols:
+
+sols:=SolveSingleIneq3(ineq,as,params):
+
+#if nops(sols)=1 then RETURN(sols) fi:
+
+res:={}:
+for i from 1 to nops(sols) do
+    res:=res union SolveManyIneqs(sols[i],as,params)
+od:
+
+res:=map(z-&gt;op(adjust_ineq_res(z,as)),res):
+
+res:=map(z-&gt;RemoveContradictions(z),res) minus {{}}:
+res:=map(z-&gt;RemoveTrivial(z,as,params),res) minus {{}}:
+
+res
+
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font bold="false" family="Lucida Bright" size="12">SolveSingleIneq2</Font></Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Synopsis</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">result := SolveSingleIneq(ineq,as,params)</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Parameters2</Font></Text-field></Title>
+<Group labelreference="L2634" drawlabel="true">
+<Input>
+<Text-field style="Bullet Item" layout="Bullet Item">result : a set of a set of solutions.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">ineq: am inequation.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">as: the set of ai's unknowns.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">params: the free parameters in the original set of equations.</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Description</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">Auziliary routine for solving a single inequation.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Code</Font></Text-field></Title>
+<Group labelreference="L2635" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">SolveSingleIneq2:=proc(ineq,as::set,params::set)
+local res,sols,ti,ineq2,prm,n,i,j,sol0,linsol,lineq,eps,ntr,vars,as0,asm,ld,m,pr:
+
+vars:=as union params:
+
+as0:=map(z-&gt;z=0,as):
+asm:=map(z-&gt;z&lt;0,as) union map(z-&gt;-z&gt;0,as):
+
+if type(ineq,`&lt;`) then ti:=1 fi:
+if type(ineq,`&lt;=`) then ti:=-1 fi:
+if ti&lt;&gt;1 and ti&lt;&gt;-1 then ERROR(&quot;Bad format for an inequation.&quot;) fi:
+
+ineq2:=lhs(ineq)-rhs(ineq):
+sols:={solve(ineq2,vars)}:
+sols:=map(w-&gt;map(z-&gt;if lhs(z)&lt;&gt;rhs(z) then z fi,w),sols):
+
+sol0:=map(z-&gt;op(z),sols):
+
+n:=nops(sol0):
+prm:=combinat[permute]([seq(1,ii=1..n),seq(-1,ii=1..n)],n):
+
+res:={}:
+for i from 1 to nops(prm) do
+    linsol:={}:
+    lineq:={}:
+    for j from 1 to n do
+        ntr:=(lhs(sol0[j])-rhs(sol0[j]))*prm[i][j]&lt;0:
+        linsol:=linsol union {ntr}:
+        lineq:=lineq union {lhs(sol0[j])=rhs(sol0[j])-prm[i][j]*eps}
+    od:
+    pr:=subs(lineq,ineq2):
+    pr:=subs(lineq,pr):
+    lineq:=simplify(pr):
+
+    m:=0:
+    pr:=subs(eps=0,lineq):
+    while pr=0 do
+          m:=m+1:
+          pr:=simplify(subs(eps=0,diff(lineq,eps$m))):
+    od:
+    lineq:=pr:
+
+    if linsol minus as0 minus asm=linsol then
+       if ti=1 then
+          lineq:=expand(lineq)&lt;0
+       else
+          lineq:=expand(lineq)&lt;=0
+       fi:
+       linsol:=linsol union {lineq}:
+
+       if not(has(map(z-&gt;evalb(z),linsol),false)) then
+          linsol:=map(z-&gt;if evalb(z)&lt;&gt;true then z fi,linsol):
+          res:=res union {linsol}
+       fi:
+    fi:
+od:
+
+res
+
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font bold="false" family="Lucida Bright" size="12">SolveSingleIneq3</Font></Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Synopsis</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">result := SolveSingleIneq3(ineq,as,params)</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Parameters2</Font></Text-field></Title>
+<Group labelreference="L2639" drawlabel="true">
+<Input>
+<Text-field style="Bullet Item" layout="Bullet Item">result : a set of a set of solutions.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">ineq: am inequation.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">as: the set of ai's unknowns.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">params: the free parameters in the original set of equations.</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Description</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">Auziliary routine for solving a single inequation.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Code</Font></Text-field></Title>
+<Group labelreference="L2640" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">SolveSingleIneq3:=proc(ineq,as::set,params::set)
+local ti,eq,m,prm,i,new_ineqs,res:
+if type(ineq,`&lt;`) then ti:=1 fi:
+if type(ineq,`&lt;=`) then ti:=-1 fi:
+if ti&lt;&gt;1 and ti&lt;&gt;-1 then ERROR(&quot;Bad format for an inequation.&quot;) fi:
+
+eq:=factor(lhs(ineq)-rhs(ineq)):
+if not(type(eq,`*`)) then
+   RETURN(SolveSingleIneq2(ineq,as,params))
+fi:
+
+m:=nops(eq):
+
+prm:=combinat[permute]([seq(1,ii=1..m),seq(-1,ii=1..m)],m):
+prm:=map(z-&gt;if convert(z,`*`)=-1 then z fi,prm):
+
+res:={}:
+for i from 1 to nops(prm) do
+    if ti=1 then
+       new_ineqs:={seq(prm[i][ii]*op(ii,eq)&lt;0,ii=1..m)}
+    else
+       new_ineqs:={seq(prm[i][ii]*op(ii,eq)&lt;=0,ii=1..m)}
+    fi:
+
+    #res:=res union {SolveManyIneqs(new_ineqs,as,params)}
+    res:=res union {new_ineqs}
+od:
+
+res:
+
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font bold="false" family="Lucida Bright" size="12">SolveManyIneqs</Font></Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Synopsis</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">result := SolveManyIneqs(ineqs,as,params)</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Parameters</Font></Text-field></Title>
+<Group labelreference="L2567" drawlabel="true">
+<Input>
+<Text-field style="Bullet Item" layout="Bullet Item">result : the solutiof of a set of inequalities</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">ineqs: a set of inequations.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">a: the set of ai's unknowns.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">params: the set of free parameters inf the original differential equations.</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Description</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">Solve a set of inequalities.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Code</Font></Text-field></Title>
+<Group labelreference="L2569" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">SolveManyIneqs:=proc(ineqs,as::set,params::set)
+local i,res,pr,sols:
+global vals:
+
+sols:=table():
+for i from  1 to nops(ineqs) do
+    pr:=SolveSingleIneq3(ineqs[i],as,params):
+    sols[i]:=pr:
+od:
+
+res:=sols[1]:
+for i from 2 to nops(ineqs) do
+    res:=map(w-&gt;op(map(z-&gt;z union w,res)),sols[i])
+od:
+
+res
+
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font bold="false" family="Lucida Bright" size="12">SimplifyIneq</Font></Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Synopsis</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">result := SimplifyIneq(ineqs)</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Parameters</Font></Text-field></Title>
+<Group labelreference="L2571" drawlabel="true">
+<Input>
+<Text-field style="Bullet Item" layout="Bullet Item">result: a set of simplified expressions</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item"><Font encoding="UTF-8">ineqs: a set of inequa\303\247ities and equalities.</Font></Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Description</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">Simplifies the set of expressions by putting all the terms on the left-and side.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Code</Font></Text-field></Title>
+<Group labelreference="L2573" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">SimplifyIneq:=proc(ineqs)
+local res,pr,pr2,i:
+
+res:={}:
+
+for i from 1 to nops(ineqs) do
+    pr:=ineqs[i]:
+    if type(pr,`=`) then
+       res:=res union {pr}
+    else
+       pr2:=lhs(pr)-rhs(pr):
+       if type(pr,`&lt;`) then
+          res:=res union {pr2&lt;0}
+       else
+          if type(pr,`&lt;=`) then
+             res:=res union {pr2&lt;=0}
+          else
+             ERROR(&quot;Unknown type of expression.&quot;)
+          fi
+       fi
+    fi
+od:
+
+res
+
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font bold="false" family="Lucida Bright" size="12">FinalSimplify2</Font></Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Synopsis</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">result := FinalSimplify2(conds,as)</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Parameters</Font></Text-field></Title>
+<Group labelreference="L2595" drawlabel="true">
+<Input>
+<Text-field style="Bullet Item" layout="Bullet Item">result : a set of inequalities and equalities.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">conds: a set of inequalities and equalities.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">as: a set with the ai's unknowns.</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Description</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">Performs some final simplifications.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Code</Font></Text-field></Title>
+<Group labelreference="L2593" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">FinalSimplify2:=proc(conds,as,params)
+local res,unks,ineqs,eqs,nm,ineqs_d1,sol:
+
+unks:=as union params:
+
+ineqs:=map(z-&gt;if not(type(z,`=`)) then z fi,conds):
+eqs:=conds minus ineqs:
+nm:=map(z-&gt;if type(evalf(lhs(z)-rhs(z)),numeric) then z fi,ineqs):
+
+ineqs:=ineqs minus nm:
+
+nm:=map(z-&gt;evalb(z),evalf(nm)):
+
+if has(nm,false) then RETURN({false}) fi:
+
+ineqs_d1:=map(z-&gt;if type(lhs(z)-rhs(z), polynom(algebraic,unks)) then z fi,ineqs):
+ineqs_d1:=map(z-&gt;if degree(lhs(z)-rhs(z),unks)=1 then z fi,ineqs_d1):
+
+sol:=solve(ineqs_d1,unks):
+
+if {sol}={} then
+   RETURN({false}):
+#   sol:={false}#ineqs_d1
+fi:
+
+res:=ineqs minus ineqs_d1 union eqs union sol:
+res:=map(z-&gt;if lhs(z)&lt;&gt;rhs(z) then z fi, res):
+
+res
+
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font bold="false" family="Lucida Bright" size="12">makenormal</Font></Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Synopsis</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">result := makenormal(cond)</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Parameters</Font></Text-field></Title>
+<Group labelreference="L2597" drawlabel="true">
+<Input>
+<Text-field style="Bullet Item" layout="Bullet Item">result: a set of simplified expressions</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">cond: an inequality or equality.</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Description</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">Simplifies an equation such that it is on a polynomial form.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Code</Font></Text-field></Title>
+<Group labelreference="L2598" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">makenormal:=proc(cond)
+local res,s,t1,t2,nn,dd,cond2:
+
+if type(cond,`=`) then RETURN({{cond}}) fi:
+
+if type(cond,`&lt;`) then s:=-1 else s:=1 fi:
+
+t1:=lhs(cond):
+t2:=rhs(cond):
+
+cond2:=simplify(t1-t2):
+
+nn:=numer(cond2):
+dd:=denom(cond2):
+
+if s=-1 then
+   res:={{-dd&lt;0,nn&lt;0},{dd&lt;0,-nn&lt;0}}
+else
+   res:={{-dd&lt;=0,nn&lt;0},{dd&lt;=0,-nn&lt;0}}
+fi:
+
+res
+
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font bold="false" family="Lucida Bright" size="12">adjust_ineq_res</Font></Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Synopsis</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">result := adjust_ineq_res(conds,as)</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Parameters</Font></Text-field></Title>
+<Group labelreference="L2604" drawlabel="true">
+<Input>
+<Text-field style="Bullet Item" layout="Bullet Item">result : a set of inequalities and equalities.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">conds: a set of inequalities and equalities.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">as: a set with the ai's unknowns.</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Description</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">Performs some simplifications.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Code</Font></Text-field></Title>
+<Group labelreference="L2603" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">adjust_ineq_res:=proc(conds,as)
+local res,i,j,pr,pr2,sol,asp,asm:
+
+asp:=map(z-&gt;-z&gt;0,as):
+asm:=map(z-&gt;z&lt;0,as):
+
+res:=makenormal(conds[1]):
+for i from 2 to nops(conds) do
+    pr:=makenormal(conds[i]):
+    for j from 1 to nops(pr) do
+#        res:=map(w-&gt;map(z-&gt;z union w,pr),res)
+        res:=map(w-&gt;op(map(z-&gt;z union w,pr)),res)
+    od:
+od:
+
+sol:={}:
+for i from 1 to nops(res) do
+    pr:=map(z-&gt;if type(lhs(z),numeric) and type(rhs(z),numeric) then z fi,res[i]):
+    pr2:=map(z-&gt;evalb(z),pr):
+    if not(has(pr2,false)) and (res[i] intersect asp={}) and (res[i] intersect asm={}) then
+       sol:=sol union map(w-&gt;map(z-&gt;if lhs(z)&lt;&gt;rhs(z) then z fi,w),{res[i] minus pr})
+    fi
+od:
+
+sol
+
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font bold="false" family="Lucida Bright" size="12">SolveAdmissCond</Font></Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Synopsis</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">result := SolveAdmissCond(conds,params)</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Parameters</Font></Text-field></Title>
+<Group labelreference="L2609" drawlabel="true">
+<Input>
+<Text-field style="Bullet Item" layout="Bullet Item">result: a set with solutions of the admissibility conditions</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">conds: a set if sets with the admissibility conditions.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">params: the free parameters in the original system.</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Description</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">Solves the admissibility conditions.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Code</Font></Text-field></Title>
+<Group labelreference="L2610" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">SolveAdmissCond:=proc(conds,params)
+local n,qm,sol,as,assm:
+global LYAPUNOV,SADE:
+
+qm:=quad_matrix():
+n:=LinearAlgebra[RowDimension](qm):
+
+as:={seq(cat(LYAPUNOV[_incog_name],ii),ii=1..n)}:
+
+if has({args},assume) then
+   assm:=op(map(z-&gt;if has(z,assume) then rhs(z) fi,{args})):
+   sol:=SolveConds(conds,as,params,assume=assm):
+else
+   sol:=SolveConds(conds,as,params):
+fi:
+
+sol:=sol minus {{false}}:
+sol:=map(z-&gt;op(adjust_ineq_res(z,as)),sol):
+
+sol:=map(z-&gt;RemoveContradictions(z),sol) minus {{}}:
+sol:=map(z-&gt;RemoveTrivial(z,as,params),sol) minus {{}}:
+sol:=ComplexityOrder(sol):
+
+sol
+
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font bold="false" family="Lucida Bright" size="12">RemoveTrivial</Font></Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Synopsis</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">result := RemoveTrivial(conds,aas,params)</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Parameters</Font></Text-field></Title>
+<Group labelreference="L2621" drawlabel="true">
+<Input>
+<Text-field style="Bullet Item" layout="Bullet Item">result : a set of inequalities and equalities.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">conds: a set of inequalities and equalities.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">aas: a set with the ai's unknowns.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">params: a set with the free parameters in the system.</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Description</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">Removes trivial expressions from the conditions, such as -a1&lt;0, -a1^2&lt;0, ...</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Code</Font></Text-field></Title>
+<Group labelreference="L2626" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">RemoveTrivial:=proc(c,aas,params)
+local i, res,as2,pr,pr2,pr3,sc,sc2:
+
+as2:=map(z-&gt;z&gt;0,{op(aas)}):
+
+res:={}:
+
+for i from 1 to nops(c) do
+    pr:=c[i]:
+    sc:=setcont2(pr,params):
+    sc2:=traperror(setcont2(pr,aas)):
+    if sc={} and sc2={} then
+       pr2:=evalb(evalf(pr))
+    fi:
+    if pr2=false then
+       RETURN({})
+    fi:
+
+    if nops(sc2)=1 and sc={} then
+       pr2:=solve({pr} union as2,aas):
+       if {pr2}={} or pr2={{}} then
+          RETURN({})
+       fi:
+       pr3:=lhs(pr)-rhs(pr):
+       res:=res union pr2
+    else
+       res:=res union {pr}
+    fi
+od:
+res:=res minus as2:
+
+res
+
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field bookmark="gfr_alg" style="Function" font_style_name="Function" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="Function" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="Function" spaceabove="0" bullet="none">clean_conds</Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Synopsis</Text-field></Title>
+<Text-field style="Text" layout="Normal">result:=clean_conds(conds,a,l)</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Parameters</Text-field></Title>
+<Text-field style="Bullet Item" layout="Bullet Item">result :  a set of conditions</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">conds: a set of conditions</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">a: the set of variabl ai's</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">l: an integer: if l=-1 returns inequalities of type &lt;=. Otherwise returns of type &lt;.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Description</Text-field></Title>
+<Text-field style="Normal" layout="Normal">removes the ai's (positive) multiplicative terms.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font style="Annotation Text">Code</Font></Text-field></Title>
+<Group labelreference="L2588" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">clean_conds:=proc(conds,a,l)
+global LYAPUNOV:
+local i,j,n,pr,pr2,trm,rs0,res,_c,aa:
+rs0:={}:
+aa:={op(a)}:
+n:=nops(aa):
+for i from 1 to nops(conds) do
+    pr:=factor(_c*conds[i]):
+    if type(pr,`*`) then
+       pr2:=1:
+       for j from 1 to nops(pr) do
+           trm:=op(j,pr):
+
+           if aa minus {trm}=aa then
+              pr2:=pr2*trm
+           fi:
+       od:
+       rs0:=rs0 union {pr2}
+    fi
+od:
+rs0:=subs(_c=1,rs0):
+
+res:={}:
+for i from 1 to nops(rs0) do
+    pr:=rs0[i]:
+    if type(pr,numeric) then
+       if pr&gt;0 then
+          RETURN(false)
+       fi
+    else
+       if l=-1 then
+          res:=res union {pr&lt;=0}
+       else
+          res:=res union {pr&lt;0}
+       fi
+    fi
+od:
+
+res
+
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font bold="false" family="Lucida Bright" size="12">wti</Font></Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font style="Annotation Text">Synopsis</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">SolveAdmissCond(cond)</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Parameters</Font></Text-field></Title>
+<Group labelreference="L2619" drawlabel="true">
+<Input>
+<Text-field style="Bullet Item" layout="Bullet Item">result: an integer. False if it is not a codition.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">cond: a single condition</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Description</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">Returns 1 if the condition is an inequality of the type `&lt;`, -1 if of type `&lt;=`, 0 if it is an equality, and false otherwise.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Code</Font></Text-field></Title>
+<Group labelreference="L2618" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">wti:=proc(a)
+if type(a,`&lt;`) then RETURN(1) fi:
+if type(a,`&lt;=`) then RETURN(-1) fi:
+if type(a,`=`) then RETURN(0) fi:
+false
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field bookmark="gfr_alg" style="Function" font_style_name="Function" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="Function" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="Function" spaceabove="0" bullet="none">RemoveContradictions</Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Synopsis</Text-field></Title>
+<Text-field style="Text" layout="Normal">result:=RemoveContradictions(conds)</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Parameters</Text-field></Title>
+<Text-field style="Bullet Item" layout="Bullet Item">result :  a set of conditions</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">conds: a set of conditions</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Description</Text-field></Title>
+<Text-field style="Normal" layout="Normal">Identifies if a set of conditions is self-contradictory</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font style="Annotation Text">Code</Font></Text-field></Title>
+<Group labelreference="L2612" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">RemoveContradictions:=proc(ac)
+local i,j,res,res2,e1,e2,c2,t1,t2,pr,pr2,_gh,n,c:
+
+c:=simplify(ac):
+pr:=map(z-&gt;if type(lhs(z),numeric) and type(rhs(z),numeric) then evalb(z) fi,c):
+if has(pr,false) then
+   RETURN({})
+fi:
+
+res:={}:
+for i from 1 to nops(c) do
+    e1:=c[i]:
+    t1:=wti(e1):
+    for j from i+1 to nops(c) do
+        e2:=c[j]:
+        t2:=wti(e2):
+        if t1&lt;&gt;0 and t2&lt;&gt;0 then
+           pr:=traperror(simplify(lhs(e1)/lhs(e2))):
+           if pr=lasterror then RETURN({}) fi:
+           if type(pr,numeric) then
+              if pr&lt;0 then RETURN({}) fi
+           fi
+        fi
+    od:
+    res:=res union {simplify(e1)}
+od:
+
+res2:={}:
+for i from 1 to nops(res) do
+    e1:=c[i]:
+    t1:=wti(e1):
+    if t1&lt;&gt;0 then
+       e2:=factor(lhs(e1)-rhs(e1)):
+       if type(e2,`+`) then
+          res2:=res2 union {e1}
+       else
+          e2:=e2*_gh:
+          pr:=1:
+          for j from 1 to nops(e2) do
+              pr2:=op(j,e2):
+              if type(pr2,`^`) then
+                 n:=op(2,pr2):
+                 if type(n,numeric) and type(n,odd) then
+                    pr:=pr*op(1,pr2)
+                 fi
+              else
+                 pr:=pr*pr2
+              fi
+          od:
+          if t1=1 then
+             pr:=pr&lt;0
+          else
+             pr&lt;=0
+          fi:
+          res2:=res2 union {subs(_gh=1,pr)}
+       fi
+    else
+       res2:=res2 union {e1}
+    fi
+od:
+
+res2
+
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font bold="false" family="Lucida Bright" size="12">ComplexityOrder</Font></Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Synopsis</Text-field></Title>
+<Text-field style="Text" layout="Normal">result:=ComplexityOrder(conds)</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Parameters</Text-field></Title>
+<Text-field style="Bullet Item" layout="Bullet Item">result :  a set of conditions</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">conds: a set of conditions</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="FunctionPart" font_style_name="FunctionPart" superscript="false" placeholder="false" executable="false" selection-placeholder="false" italic="false" size="12" bold="false" subscript="false" family="Times New Roman" opaque="false" underline="false" background="[255,255,255]" readonly="false" foreground="[0,0,0]" layout="FunctionPart" alignment="left" firstindent="0" spacebelow="0" linebreak="space" rightmargin="0" bulletsuffix="" pagebreak-before="false" leftmargin="0" linespacing="0.0" initial="0" layout_style_name="FunctionPart" spaceabove="0" bullet="none">Description</Text-field></Title>
+<Text-field style="Normal" layout="Normal">Reorder the conditions according to their complexity.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font style="Annotation Text">Code</Font></Text-field></Title>
+<Group labelreference="L2629" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">ComplexityOrder:=proc(c)
+local i,j,ii,res,pr,comp_index,c2,mv,mt:
+
+c2:={op(c)}:
+
+res:=1:
+while c2&lt;&gt;{} do
+      mv:=10^10:
+      for i from 1 to nops(c2) do
+          pr:=c2[i]:
+          pr:=map(z-&gt;nops(expand(lhs(z)-rhs(z))),pr):
+          comp_index:=sum(pr[ii],ii=1..nops(pr)):
+          if comp_index&lt;mv then
+             mt:=c2[i]:
+             mv:=comp_index
+          fi
+      od:
+      c2:=c2 minus {mt}:
+      res:=res,mt
+od:
+res:=[res]:
+res:=res[2..nops(res)]:
+
+res
+
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font bold="false" family="Lucida Bright" size="12">SolveConds0</Font></Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Synopsis</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">result := SolveConds0(conds,as,params)</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Parameters</Font></Text-field></Title>
+<Group labelreference="L2575" drawlabel="true">
+<Input>
+<Text-field style="Bullet Item" layout="Bullet Item">result : a set of epressions (inequalities and equalities)</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">as: the set with the ai's unknowns.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">params: the set of free parameters in the originnal differential system.</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Description</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">Auxiliary routine to SolveConds. Perform a first step of the solution.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Code</Font></Text-field></Title>
+<Group labelreference="L2577" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">SolveConds0:=proc(conds::set,as::set,params::set)
+local res_final,res,res2,sols,i,j,k,l,l2,ineqs,eqs,pr,pr2,res_f,ass,
+      sol_eqs,vars,eqs2,eqs3,cde,cdi,cn:
+
+if nargs=4 and lhs(args[4])=assume then
+   ass:=rhs(args[4])
+else
+   ass:={}
+fi:
+ass:=[op(ass union {seq(as[ii]&gt;0,ii=1..nops(as))})]:
+
+cde:={seq(as[ii]=0,ii=1..nops(as))}:
+cdi:={seq(as[ii]&lt;0,ii=1..nops(as))}:
+
+res_final:={}:
+
+for k from 1 to nops(conds) do
+    res:={}:
+
+    ineqs:=map(z-&gt;if type(z,`&lt;`) or type(z,`&lt;=`) then z fi, conds[k]):
+    if {ineqs}={} then ineqs:={} fi:
+    eqs:=map(z-&gt;if type(z,`=`) then z fi, conds[k]):
+
+    if {eqs}&lt;&gt;{} and eqs&lt;&gt;{} then
+
+       vars:=setcont2(eqs,as union params):
+
+       eqs3:=map(z-&gt;lhs(z)-rhs(z),eqs):
+
+       if LYAPUNOV[_groebner]=true then
+          eqs2:=traperror(Groebner[Basis](eqs3,plex(op(vars)))):
+          if eqs2=lasterror then
+             eqs2:=eqs3
+          else
+             eqs2:={op(eqs2)}:
+          fi
+       else
+          eqs2:=eqs3
+       fi:
+
+       eqs:=traperror(timelimit(LYAPUNOV[_timelim],{solve(eqs2,vars)})):
+       if eqs=lasterror then
+          eqs:={map(z-&gt;z=0,eqs2)}
+       else
+          eqs:=map(z-&gt;allvalues(z),{op(eqs)}):
+          eqs:=map(w-&gt;map(z-&gt;if lhs(z)&lt;&gt;rhs(z) then z fi,w),eqs)
+       fi
+    fi:
+
+    sols:={}:
+    if ineqs&lt;&gt;{} then
+       sols:=traperror(timelimit(LYAPUNOV[_timelim],SolveManyIneqs(ineqs,as,params))):
+       if sols=lasterror then
+          sols:={ineqs}
+       fi
+    fi:
+    sols:=map(z-&gt;if not(has(z,piecewise)) then z fi,sols):
+
+    if sols={} then
+       res:=res union eqs:
+    else
+       if eqs={} then
+          res:=sols:
+       else
+          sols:=map(z-&gt;remove_trivial(z,as) minus {false},sols) minus {{}}:
+          res2:=table:
+          cn:=0:
+          for l from 1 to nops(eqs) do
+          for l2 from 1 to nops(sols) do
+              pr:=traperror(timelimit(LYAPUNOV[_timelim],simplify(subs(eqs[l],sols[l2])))):
+              if pr&lt;&gt;lasterror then
+                 pr:=eqs[l] union pr:
+                 cn:=cn+1:
+                 res2[cn]:=pr:
+              fi
+          od
+          od:
+          res:={seq(res2[ii],ii=1..cn)}:
+       fi:
+    fi:
+
+    res_final:=res_final union res:
+od:
+
+res:={}:
+for i from 1 to nops(res_final) do
+    pr:=timelimit(LYAPUNOV[_timelim],remove_trivial(res_final[i],as)):
+    if pr=lasterror then
+       res:=res union {res_final[i]}
+    else
+       res:=res union {pr}
+    fi:
+od:
+
+res:=map(z-&gt;if not(has(z,false)) then z fi,res) minus {{}}:
+res:=map(z-&gt;if not(has(z,I)) then z fi,res) minus {{}}:
+
+res
+
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2"><Font bold="false" family="Lucida Bright" size="12">SolveConds</Font></Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Synopsis</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">result := SolveConds(conds,as,params)</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Parameters</Font></Text-field></Title>
+<Group labelreference="L2579" drawlabel="true">
+<Input>
+<Text-field style="Bullet Item" layout="Bullet Item">result : the solution of the set conds.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">conds: the set with the admissibility conditions.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">a: the set with the ai's unknowns.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">paramas: the set of free parameters in the original differential system.</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Description</Font></Text-field></Title>
+<Text-field style="Text" layout="Normal">Solves the admissibility conditions.</Text-field>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 3" layout="Heading 3"><Font bold="false" family="Lucida Bright" italic="false" size="12">Code</Font></Text-field></Title>
+<Group labelreference="L2581" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">SolveConds:=proc(conds::set,as::set,params::set)
+local i,res,pr,pr0,ass,ass2,ass3,sol0:
+global LYAPUNOV:
+
+if nargs=4 and lhs(args[4])=assume then
+   ass:=rhs(args[4])
+else
+   ass:={}
+fi:
+
+sol0:=traperror(SolveConds0(conds,as,params,assume=ass)):
+
+if sol0=lasterror then
+   sol0:=conds
+fi:
+
+pr:=map(w-&gt;map(z-&gt;if not(type(z,`=`)) and type(lhs(z),numeric) and type(rhs(z),numeric) then evalb(z) else z fi,w),sol0):
+sol0:=map(z-&gt;if not(has(z,false)) then z fi,pr):
+sol0:=map(z-&gt;z minus {true},sol0):
+
+ass:={op(ass union {seq(as[ii]&gt;0,ii=1..nops(as))})}:
+ass2:=SimplifyIneq(ass):
+ass3:=map(z-&gt;-lhs(z)&lt;0,ass2):
+
+#res:=1:
+#for i from 1 to nops(sol0) do
+#    pr0:=sol0[i]:
+#   pr0:=map(z-&gt;if not(type(z,`=`) and lhs(z)=rhs(z)) then z fi,pr0):
+#    #pr:=traperror(timelimit(LYAPUNOV[_timelim],SolveConds0({pr0},as,params,assume=ass3))):
+#    pr:=SolveConds0({pr0},as,params,assume=ass3):
+#
+#    if pr=lasterror or pr={} then
+#       pr:={sol0[i]}
+#    fi:
+#
+#    res:=res,op(pr)
+#od:
+#res:={res}:
+#res:=res[2..nops(res)]:
+
+#res:=simplify(res,assume=[op(ass)]):
+res:=simplify(sol0,assume=[op(ass)]):
+res:=map(z-&gt;SimplifyIneq(z) minus ass2,res):
+res:=map(z-&gt;if z intersect ass3={} and not(has(z,I)) then z fi,res):
+res:=map(z-&gt;RemoveContradictions(z),res) minus {{}}:
+
+res
+
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1">Save</Text-field></Title>
+<Group labelreference="L33" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal">end module:
+
+repo := &quot;/home/marciano/simbolico/lyapunov/lib&quot;:
+startdir := currentdir(repo):
+march('create', &quot;./LYAPUNOV.lib&quot;, 500):
+
+
+savelibname := repo:
+savelib('lyapunov');
+restart:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L34" drawlabel="true">
+</Group>
+</Section>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 1" layout="Heading 1">History</Text-field></Title>
+<Section collapsed="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Text-field style="Heading 2" layout="Heading 2">LYAPUNOV Module:</Text-field></Title>
+<Group labelreference="L2632" drawlabel="true">
+<Input>
+<Text-field style="Bullet Item" layout="Bullet Item">Beta Version: November 2001.</Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">Ver 1.0 May 9, 2002. </Text-field>
+<Text-field style="Bullet Item" layout="Bullet Item">Ver 2.0 November 2024.</Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Group labelreference="L1" drawlabel="true">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>
